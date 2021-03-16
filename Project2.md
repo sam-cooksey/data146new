@@ -1,6 +1,55 @@
 1. Continuous data refers to an amount, that is, data where the values could be any amount within a range, such as the amount of money in each bank account at a bank. Ordinal data is data that determines the order of something, like indexing in Python. The value of an index can tell you where to find a piece of data in a string, list or data frame, but you wouldn't learn anything by adding or subtracting ordinal data. Finally, nominal data is used to display non-numerical data as numbers. For example, the Gapminder data lists countries and the continents they're on. However, if we wanted to save space, we could instead fill this column with numbers, with each representing a specific continent on a key, rather than spelling the names of continents out every time.
 
-2. I was confused by this question and will ask about it on Friday.
+2. 
+
+import matplotlib.pyplot as plt
+n = 1000
+#np.random.seed(146)
+a = 5
+b = 5
+x2 = np.random.beta(a, b, size=n)
+np.mean(x2)
+np.median(x2)
+
+#setting a and b equal to something, a decimal in one case and a decimal >1 but <2 in another
+
+plt.figure(figsize=(8, 8))
+plt.hist(x2)
+plt.show()
+
+This data has a mean that approximates the 50th percentile (minimal skew), with a mean of 0.5057072038373106 and a median of 0.5065650801448449.
+
+n = 1000
+#np.random.seed(146)
+a = 0.57
+b = 1.32
+x2 = np.random.beta(a, b, size=n)
+np.mean(x2)
+np.median(x2)
+
+#setting a and b equal to something, a decimal in one case and a decimal >1 but <2 in another
+
+plt.figure(figsize=(8, 8))
+plt.hist(x2)
+plt.show()
+
+This data is skewed right with a mean of 0.2886643347664441 and a median of 0.21231592212207134.
+
+n = 1000
+#np.random.seed(146)
+a = 50
+b = 5
+x2 = np.random.beta(a, b, size=n)
+np.mean(x2)
+np.median(x2)
+
+#setting a and b equal to something, a decimal in one case and a decimal >1 but <2 in another
+
+plt.figure(figsize=(8, 8))
+plt.hist(x2)
+plt.show()
+
+This data is skewed left with a mean of 0.9086642978791913 and median of 0.9141409200671622.
 
 3.
 
