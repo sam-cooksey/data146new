@@ -10,7 +10,12 @@ Here are my answers to Project 1.
 
 5. ![image](https://user-images.githubusercontent.com/78311527/112390916-6d9b2300-8ccd-11eb-8d81-3b73844fb610.png)
 
-6. == is used for testing whether two expressions are equal in value. For example, if I executed a line of code that reads "1+1==2" the result will be true because 1 + 1 does in fact equal 2. & means "and" in boolean. For example, if I executed a line of code that reads "(1+1==2) & (1+1==3)" the result will be false because only one of those statements is true. | means "or" in boolean. For example, if I executed a line of code that reads "(1+1==2) | (1+1==3)" the result will be true because the first of those statements is true. ^ means "not" in boolean. For example, if I executed a line of code that reads "(1+1==2) ^ (1+1==3)" the result will be true because 1 + 1 is 2 and not 3.
+6.
+
++ == is used for testing whether two expressions are equal in value. For example, if I executed a line of code that reads "1+1==2" the result will be true because 1 + 1 does in fact equal 2.
++ & means "and" in boolean. For example, if I executed a line of code that reads "(1+1==2) & (1+1==3)" the result will be false because only one of those statements is true. 
++ | means "or" in boolean. For example, if I executed a line of code that reads "(1+1==2) | (1+1==3)" the result will be true because the first of those statements is true.
++ ^ means "not" in boolean. For example, if I executed a line of code that reads "(1+1==2) ^ (1+1==3)" the result will be true because 1 + 1 is 2 and not 3.
 
 7. loc is based on labels, so you would use it to find rows and columns based on their names, whereas iloc is based on integers, which means you would use it to find rows and columns based on their index. Both functions can be used to find multiple rows or columns at once- you would enter the range you wanted to look up.
 
