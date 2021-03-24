@@ -8,7 +8,7 @@ Here are my answers to Project 1.
 
 4. The lowest life expectancy on the table was from Rwanda in 1992. At the time, the life expectancy was just 23.599 years, almost certainly due to high infant mortality.
 
-5. ![image](https://user-images.githubusercontent.com/78311527/112390522-d504a300-8ccc-11eb-9134-20f2834703af.png)
+5. ![image](https://user-images.githubusercontent.com/78311527/112390916-6d9b2300-8ccd-11eb-8d81-3b73844fb610.png)
 
 6. == is used for testing whether two expressions are equal in value. For example, if I executed a line of code that reads "1+1==2" the result will be true because 1 + 1 does in fact equal 2. & means "and" in boolean. For example, if I executed a line of code that reads "(1+1==2) & (1+1==3)" the result will be false because only one of those statements is true. | means "or" in boolean. For example, if I executed a line of code that reads "(1+1==2) | (1+1==3)" the result will be true because the first of those statements is true. ^ means "not" in boolean. For example, if I executed a line of code that reads "(1+1==2) ^ (1+1==3)" the result will be true because 1 + 1 is 2 and not 3.
 
