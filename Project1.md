@@ -6,7 +6,7 @@ Here are my answers to Project 1.
 
 3. Yes, data is displayed every 5 years, starting with 1952. It ends with 2007, so to make it more up to date, we would have to add data from 2012 and 2017.
 
-4. The lowest life expectancy on the table was from Rwanda in 1992, which happens to be the first line of the data frame. At the time, the life expectancy was just 23.599 years, almost certainly due to high infant mortality.
+4. The lowest life expectancy on the table was from Rwanda in 1992. At the time, the life expectancy was just 23.599 years, almost certainly due to high infant mortality.
 
 5. The highest results were:
 Germany: 2,554,520.75
