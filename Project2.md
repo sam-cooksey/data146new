@@ -1,5 +1,7 @@
 1. Continuous data refers to an amount, that is, data where the values could be any amount within a range, such as the amount of money in each bank account at a bank. Ordinal data is data that determines the order of something, like indexing in Python. The value of an index can tell you where to find a piece of data in a string, list or data frame, but you wouldn't learn anything by adding or subtracting ordinal data. Finally, nominal data is used to display non-numerical data as numbers. For example, the Gapminder data lists countries and the continents they're on. However, if we wanted to save space, we could instead fill this column with numbers, with each representing a specific continent on a key, rather than spelling the names of continents out every time.
 
+My model might be used in the context of political science. For example, I might want to study how education level across the states affects party performance in those states. If that's the case, education level (say, percent of the population with a college degree or higher) will be the independent variable and party performance (for example, change in Democratic vote share between 2 Presidential elections) will be the target, or dependent variable.
+
 2. 
 
 import matplotlib.pyplot as plt
@@ -17,6 +19,8 @@ plt.figure(figsize=(8, 8))
 plt.hist(x2)
 plt.show()
 
+![image](https://user-images.githubusercontent.com/78311527/112394254-c4572b80-8cd2-11eb-9423-94bbe8411f41.png)
+
 This data has a mean that approximates the 50th percentile (minimal skew), with a mean of 0.5057072038373106 and a median of 0.5065650801448449.
 
 n = 1000
@@ -33,6 +37,8 @@ plt.figure(figsize=(8, 8))
 plt.hist(x2)
 plt.show()
 
+![image](https://user-images.githubusercontent.com/78311527/112394312-e18bfa00-8cd2-11eb-9485-c04495cd83a8.png)
+
 This data is skewed right with a mean of 0.2886643347664441 and a median of 0.21231592212207134.
 
 n = 1000
@@ -48,6 +54,8 @@ np.median(x2)
 plt.figure(figsize=(8, 8))
 plt.hist(x2)
 plt.show()
+
+![image](https://user-images.githubusercontent.com/78311527/112394131-91149c80-8cd2-11eb-9b23-c8a5822caaf3.png)
 
 This data is skewed left with a mean of 0.9086642978791913 and median of 0.9141409200671622.
 
