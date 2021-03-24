@@ -8,7 +8,7 @@ Here are my answers to Project 1.
 
 Note: I was unable to get the script to read the gapminder file, but I did manage to open it in Pycharm, so all of my answers from here on out are from reading the data or doing the math myself. 
 
-4. The lowest life expectancy on the table was from Afghanistan in 1952, which happens to be the first line of the data frame. At the time, the life expectancy was just 28 years, almost certainly due to high infant mortality.
+4. The lowest life expectancy on the table was from Rwanda in 1992, which happens to be the first line of the data frame. At the time, the life expectancy was just 23.599 years, almost certainly due to high infant mortality.
 
 5. The highest results were:
 Germany: 2,554,520.75
