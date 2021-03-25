@@ -55,7 +55,7 @@ plt.figure(figsize=(8, 8))
 plt.hist(x2)
 plt.show()
 
-![image](https://user-images.githubusercontent.com/78311527/112394131-91149c80-8cd2-11eb-9b23-c8a5822caaf3.png)
+![image](https://user-images.githubusercontent.com/78311527/112394552-4cd5cc00-8cd3-11eb-93b0-d1c0e0994a8c.png)
 
 This data is skewed left with a mean of 0.9086642978791913 and median of 0.9141409200671622.
 
@@ -88,6 +88,10 @@ plt.ylabel('Frequency')
 plt.title('Gapminder Histogram with Logarithmic Axis')
 
 The linear model is better because the range of data isn't that big, which makes the logarithmic model unnessecary.
+
+![image](https://user-images.githubusercontent.com/78311527/112397107-ca034000-8cd7-11eb-9f24-76be63b355db.png)
+![image](https://user-images.githubusercontent.com/78311527/112397785-2450d080-8cd9-11eb-98cd-151d5a27f9b6.png)
+
 
 4.
 
