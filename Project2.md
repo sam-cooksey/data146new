@@ -99,8 +99,10 @@ import seaborn as sns
 
 sns.boxplot(x=data['year'], y=data['Life Expectancy'], data=data)
 sns.title('Life Expectancy by Country, 1952-2007')
+![image](https://user-images.githubusercontent.com/78311527/112659967-4eb2a300-8e2b-11eb-810d-85253b8efd64.png)
 
 sns.boxplot(x=data['year'], y=data['Life Expectancy'], data=data, np.log10())
 sns.title('Life Expectancy Boxplot with Logarithmic Axis')
+![image](https://user-images.githubusercontent.com/78311527/112660039-6427cd00-8e2b-11eb-9992-40efcc7fcda7.png)
 
 As was the case with question 3, the linear model is better because the range of data isn't that big. In fact, the list of years intentionally increases by 5 every time.
